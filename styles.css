@@ -1,0 +1,108 @@
+/* /* https://github.com/Ricky-bruh/DSInvalidGiftCode  */
+
+ /* Completely made by:  */
+ /* https://github.com/Ricky-bruh */
+ /* and https://github.com/Fgamervisa */
+
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5865F2; /* Sfondo blu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altezza del viewport */
+
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Acontainer {
+    width: 480px; /* Larghezza della casella */
+    height: 369.72px; /* Altezza della casella */
+    background-color: #313338; /* Colore della casella */
+    border-radius: 5px; /* Bordi arrotondati */
+    padding: 32px;
+}
+
+.authBox {
+    width: 416.01px;
+    height: 306.12px;
+}
+
+.authBox img {
+    width: 200px; /* Larghezza della seconda scatola */
+    height: 110px; /* Altezza della seconda scatola */
+    border-radius: 10px; /* Bordi arrotondati */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra orizzontalmente */
+    /* margin-left: 145.5px; */
+    /* margin-right: 145.5px; */
+    margin: auto;
+}
+
+.authBox p {
+    color: #F2F3F5; /* Colore del testo */
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px; /* Dimensione del testo */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Adjust the line-height */
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.authBox h4 {
+    /* color: #F2F3F5; */
+    color: #ABB1B7;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; /* Dimensione del testo */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Adjust the line-height */
+}
+
+.container2{
+    height: 44px;
+    width: 416px;
+    background-color: #5865F2;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #E9EAF8;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* #5865F2 */
+
+.invalid {
+    color: #00A8FC;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right:265px;
+}
+
+.invalid:hover{
+    text-decoration: underline;
+}
+
+.invalidDiv{
+    margin-top: 10px;
+}
+
+/* https://support.discord.com/hc/en-us/articles/360020776291-Gifting-Games */
